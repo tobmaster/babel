@@ -1,0 +1,29 @@
+{
+    "name": "babel",
+    "version": "0.0.1",
+    "description": "A multi purpose IRC tool",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tobmaster/babel"
+    },
+    "keywords": [
+        "irc",
+        "bouncer",
+        "chat",
+        "bot"
+    ],
+    "author": "tobmaster",
+    "license": "GPL Version 3",
+    "dependencies": {
+        "irc": ">= 0.3.x",
+        "jugglingdb": "0.2.x",
+        "jugglingdb-sqlite3": "0.0.x"
+    },
+    "bugs": {
+        "url": "https://github.com/tobmaster/babel/issues"
+    }
+}
